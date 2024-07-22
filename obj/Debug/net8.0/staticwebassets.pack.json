@@ -1,0 +1,1209 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ValeShop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ValeShop.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\fontawesome-stars.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome-stars.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\helper.css",
+      "PackagePath": "staticwebassets\\css\\helper.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-bg_glass_75_d0e5f5_1x400.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-bg_glass_75_d0e5f5_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-bg_glass_85_dfeffc_1x400.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-bg_glass_85_dfeffc_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-bg_glass_95_fef1ec_1x400.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-bg_glass_95_fef1ec_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-bg_gloss-wave_55_5c9ccc_500x100.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-bg_gloss-wave_55_5c9ccc_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-bg_inset-hard_100_f5f8f9_1x100.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-bg_inset-hard_100_f5f8f9_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-bg_inset-hard_100_fcfdfd_1x100.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-bg_inset-hard_100_fcfdfd_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-icons_217bc0_256x240.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-icons_217bc0_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-icons_2e83ff_256x240.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-icons_2e83ff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-icons_469bdd_256x240.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-icons_469bdd_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-icons_6da8d5_256x240.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-icons_6da8d5_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-icons_cd0a0a_256x240.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-icons_cd0a0a_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-icons_d8e7f3_256x240.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-icons_d8e7f3_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\image\\ui-icons_f9bd01_256x240.png",
+      "PackagePath": "staticwebassets\\css\\image\\ui-icons_f9bd01_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\about-us\\icon\\1.png",
+      "PackagePath": "staticwebassets\\css\\images\\about-us\\icon\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\about-us\\icon\\2.png",
+      "PackagePath": "staticwebassets\\css\\images\\about-us\\icon\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\about-us\\icon\\3.png",
+      "PackagePath": "staticwebassets\\css\\images\\about-us\\icon\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\about-us\\icon\\4.png",
+      "PackagePath": "staticwebassets\\css\\images\\about-us\\icon\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\1_1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\1_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\1_2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\1_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\1_3.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\1_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\1_4.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\1_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\1_5.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\1_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\2_1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\2_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\2_2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\2_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\2_3.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\2_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\2_4.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\2_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\2_5.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\2_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\2_6.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\2_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\3_1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\3_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\3_2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\3_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\banner\\featured-banner.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\banner\\featured-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\bg-banner\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\bg-banner\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\bg-banner\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\bg-banner\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\blog-banner\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\blog-banner\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\blog-banner\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\blog-banner\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\blog-banner\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\blog-banner\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\blog-banner\\5.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\blog-banner\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\blog-banner\\6.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\blog-banner\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\blog-banner\\bg-banner.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\blog-banner\\bg-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\blog-banner\\large-size\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\blog-banner\\large-size\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\blog-banner\\large-size\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\blog-banner\\large-size\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\blog-banner\\large-size\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\blog-banner\\large-size\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\css\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\featured-product\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\featured-product\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\featured-product\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\featured-product\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\featured-product\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\featured-product\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\featured-product\\4.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\featured-product\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\featured-product\\5.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\featured-product\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\featured-product\\6.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\featured-product\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\menu\\flag-icon\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\menu\\flag-icon\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\menu\\flag-icon\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\menu\\flag-icon\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\menu\\li-bg-menu.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\menu\\li-bg-menu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\menu\\logo\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\menu\\logo\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\menu\\logo\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\menu\\logo\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\payment\\1.png",
+      "PackagePath": "staticwebassets\\css\\images\\payment\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product-details\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product-details\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product-details\\admin.png",
+      "PackagePath": "staticwebassets\\css\\images\\product-details\\admin.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product-details\\user.png",
+      "PackagePath": "staticwebassets\\css\\images\\product-details\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\10.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\11.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\12.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\13.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\4.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\5.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\6.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\7.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\8.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\large-size\\9.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\large-size\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\small-size\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\small-size\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\small-size\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\small-size\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\small-size\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\small-size\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\small-size\\4.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\small-size\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\small-size\\5.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\small-size\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\product\\small-size\\6.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\product\\small-size\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\shipping-icon\\1.png",
+      "PackagePath": "staticwebassets\\css\\images\\shipping-icon\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\shipping-icon\\2.png",
+      "PackagePath": "staticwebassets\\css\\images\\shipping-icon\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\shipping-icon\\3.png",
+      "PackagePath": "staticwebassets\\css\\images\\shipping-icon\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\shipping-icon\\4.png",
+      "PackagePath": "staticwebassets\\css\\images\\shipping-icon\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\10.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\11.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\12.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\4.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\5.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\6.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\7.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\8.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\slider\\9.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\slider\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\static-top\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\static-top\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\team\\1.png",
+      "PackagePath": "staticwebassets\\css\\images\\team\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\team\\2.png",
+      "PackagePath": "staticwebassets\\css\\images\\team\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\team\\3.png",
+      "PackagePath": "staticwebassets\\css\\images\\team\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\team\\4.png",
+      "PackagePath": "staticwebassets\\css\\images\\team\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\wishlist-thumb\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\wishlist-thumb\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\wishlist-thumb\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\wishlist-thumb\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\images\\wishlist-thumb\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\wishlist-thumb\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\css\\meanmenu.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\css\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\css\\venobox.css",
+      "PackagePath": "staticwebassets\\css\\venobox.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Fontd1f1.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\about-us\\icon\\1.png",
+      "PackagePath": "staticwebassets\\images\\about-us\\icon\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\about-us\\icon\\2.png",
+      "PackagePath": "staticwebassets\\images\\about-us\\icon\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\about-us\\icon\\3.png",
+      "PackagePath": "staticwebassets\\images\\about-us\\icon\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\about-us\\icon\\4.png",
+      "PackagePath": "staticwebassets\\images\\about-us\\icon\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\1_1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\1_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\1_2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\1_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\1_3.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\1_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\1_4.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\1_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\1_5.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\1_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\2_1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\2_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\2_2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\2_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\2_3.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\2_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\2_4.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\2_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\2_5.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\2_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\2_6.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\2_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\3_1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\3_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\3_2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\3_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\banner\\featured-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\featured-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\bg-banner\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-banner\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\bg-banner\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-banner\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\blog-banner\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-banner\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\blog-banner\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-banner\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\blog-banner\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-banner\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\blog-banner\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-banner\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\blog-banner\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-banner\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\blog-banner\\bg-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-banner\\bg-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\blog-banner\\large-size\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-banner\\large-size\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\blog-banner\\large-size\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-banner\\large-size\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\blog-banner\\large-size\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-banner\\large-size\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\featured-product\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\featured-product\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\featured-product\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\featured-product\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\featured-product\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\featured-product\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\featured-product\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\featured-product\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\featured-product\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\featured-product\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\featured-product\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\featured-product\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\menu\\flag-icon\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\flag-icon\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\menu\\flag-icon\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\flag-icon\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\menu\\li-bg-menu.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\li-bg-menu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\menu\\logo\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\logo\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\menu\\logo\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\logo\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\payment\\1.png",
+      "PackagePath": "staticwebassets\\images\\payment\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product-details\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product-details\\admin.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\admin.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product-details\\user.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\large-size\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\large-size\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\small-size\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\small-size\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\small-size\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\small-size\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\small-size\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\small-size\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\small-size\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\small-size\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\small-size\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\small-size\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\product\\small-size\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\small-size\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\shipping-icon\\1.png",
+      "PackagePath": "staticwebassets\\images\\shipping-icon\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\shipping-icon\\2.png",
+      "PackagePath": "staticwebassets\\images\\shipping-icon\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\shipping-icon\\3.png",
+      "PackagePath": "staticwebassets\\images\\shipping-icon\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\shipping-icon\\4.png",
+      "PackagePath": "staticwebassets\\images\\shipping-icon\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\slider\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\static-top\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\static-top\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\team\\1.png",
+      "PackagePath": "staticwebassets\\images\\team\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\team\\2.png",
+      "PackagePath": "staticwebassets\\images\\team\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\team\\3.png",
+      "PackagePath": "staticwebassets\\images\\team\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\team\\4.png",
+      "PackagePath": "staticwebassets\\images\\team\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\wishlist-thumb\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\wishlist-thumb\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\wishlist-thumb\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\wishlist-thumb\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\images\\wishlist-thumb\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\wishlist-thumb\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\jquery.barrating.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.barrating.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\jquery.meanmenu.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.meanmenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\jquery.mixitup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mixitup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\scrollUp.min.js",
+      "PackagePath": "staticwebassets\\js\\scrollUp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\vendor\\modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\vendor\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\venobox.min.js",
+      "PackagePath": "staticwebassets\\js\\venobox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\RiderProjects\\ECommerceMVC\\ValeShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ValeShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ValeShop.props",
+      "PackagePath": "build\\ValeShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ValeShop.props",
+      "PackagePath": "buildMultiTargeting\\ValeShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ValeShop.props",
+      "PackagePath": "buildTransitive\\ValeShop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
