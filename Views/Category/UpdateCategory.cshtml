@@ -1,0 +1,27 @@
+@model ValeShop.ViewModels.UpdateCategoryViewModel
+
+<div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
+    <form asp-action="UpdateCategory" asp-controller="Category" method="post">
+        <div class="Category-form">
+            <h4 class="Category-title">Update Category</h4>
+            <div class="row">
+                <div class="col-md-6 col-12 mb-20">
+                    <label>CategoryId</label>
+                    <input asp-for="Id" class="mb-0" type="text" placeholder="CategoryId">
+                </div>
+                
+                <div class="col-md-6 col-12 mb-20">
+                    <label>Category Name</label>
+                    <input asp-for="CategoryName" class="mb-0" type="text" placeholder="Category Name">
+                </div>
+                <div class="col-md-6 col-12 mb-20">
+                    <label>Category Description</label>
+                    <input asp-for="CategoryDescription" class="mb-0" type="text" placeholder="Category Description">
+                </div>
+                <div class="col-6">
+                    <button class="register-button mt-0">Update Category</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

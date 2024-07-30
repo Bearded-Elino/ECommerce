@@ -1,0 +1,38 @@
+@model ValeShop.ViewModels.CategoryViewModel
+
+@{
+    ViewBag.Title = "Delete Category";
+}
+
+@if (TempData["DeleteSuccess"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["DeleteSuccess"]
+    </div>
+}
+@if (TempData["DeleteFailed"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["DeleteFailed"]
+    </div>
+}
+
+
+<div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
+    <form asp-action="DeleteCategory" asp-controller="Category" method="post">
+        <div class="Category-form">
+            <h4 class="Category-title">Delete Category</h4>
+            <div class="row">
+                <div class="col-md-6 col-12 mb-20">
+                    <label>ParentId</label>
+                    <input asp-for="ParentId" class="mb-0" type="text" placeholder="Enter CategoryId">
+                </div>
+
+                <div class="col-12 mb-20">
+                    <!-- Button should be in its own row -->
+                    <button class="register-button mt-0">Delete Category</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

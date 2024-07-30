@@ -11,8 +11,8 @@ using ValeShop.Data;
 namespace ValeShop.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240722174658_New")]
-    partial class New
+    [Migration("20240729093501_migrations")]
+    partial class migrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -110,11 +110,8 @@ namespace ValeShop.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<Guid>("ParentId")
+                    b.Property<Guid?>("ParentId")
                         .HasColumnType("char(36)");
-
-                    b.Property<int>("SubCategory")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -203,8 +200,8 @@ namespace ValeShop.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -214,14 +211,16 @@ namespace ValeShop.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("ProductId")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
                 });
@@ -413,10 +412,8 @@ namespace ValeShop.Migrations
             modelBuilder.Entity("ValeShop.Models.Category", b =>
                 {
                     b.HasOne("ValeShop.Models.Category", "Parent")
-                        .WithMany()
-                        .HasForeignKey("ParentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany("SubCategories")
+                        .HasForeignKey("ParentId");
 
                     b.Navigation("Parent");
                 });
@@ -441,6 +438,17 @@ namespace ValeShop.Migrations
                         .IsRequired();
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("ValeShop.Models.Product", b =>
+                {
+                    b.HasOne("ValeShop.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("ValeShop.Models.ProductPromo", b =>
@@ -493,6 +501,11 @@ namespace ValeShop.Migrations
                         .IsRequired();
 
                     b.Navigation("Country");
+                });
+
+            modelBuilder.Entity("ValeShop.Models.Category", b =>
+                {
+                    b.Navigation("SubCategories");
                 });
 #pragma warning restore 612, 618
         }

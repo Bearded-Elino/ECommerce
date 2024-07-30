@@ -1,0 +1,67 @@
+@model ValeShop.ViewModels.ProductViewModel
+
+
+@{
+    ViewBag.Title = "Product";
+}
+
+@if (TempData["ProductSuccess"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["ProductSuccess"]
+    </div>
+}
+@if (TempData["ProductFailed"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ProductFailed"]
+    </div>
+}
+
+
+<!-- Container for centering the form -->
+<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f8f9fa; padding: 20px;">
+    <div class="card" style="width: 90%; max-width: 700px; padding: 30px; border-radius: 12px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); background-color: #343a40; color: #ffffff;">
+        <h4 class="card-title" style="text-align: center; margin-bottom: 20px; font-size: 1.5rem; color: #ffffff;">Create Product</h4>
+        
+        <form asp-action="CreateProduct" method="post" enctype="multipart/form-data">
+            <!-- Form fields -->
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="CategoryId" style="font-weight: bold; font-size: 0.875rem; color: #ffffff;">Category Id</label>
+                <input asp-for="CategoryId" style="width: 100%; padding: 10px; border: 1px solid #495057; border-radius: 8px; font-size: 0.875rem; color: #ffffff; background-color: #495057; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); transition: border-color 0.3s ease; outline: none;" type="text" placeholder="Enter Category Id">
+                <span asp-validation-for="CategoryId" style="color: #dc3545; font-size: 0.75rem;"></span>
+            </div>
+        
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="Name" style="font-weight: bold; font-size: 0.875rem; color: #ffffff;">Product Name</label>
+                <input asp-for="Name" style="width: 100%; padding: 10px; border: 1px solid #495057; border-radius: 8px; font-size: 0.875rem; color: #ffffff; background-color: #495057; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); transition: border-color 0.3s ease; outline: none;" type="text" placeholder="Enter Product Name">
+                <span asp-validation-for="Name" style="color: #dc3545; font-size: 0.75rem;"></span>
+            </div>
+        
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="Description" style="font-weight: bold; font-size: 0.875rem; color: #ffffff;">Product Description</label>
+                <input asp-for="Description" style="width: 100%; padding: 10px; border: 1px solid #495057; border-radius: 8px; font-size: 0.875rem; color: #ffffff; background-color: #495057; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); transition: border-color 0.3s ease; outline: none;" type="text" placeholder="Enter Product Description">
+                <span asp-validation-for="Description" style="color: #dc3545; font-size: 0.75rem;"></span>
+            </div>
+        
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="Price" style="font-weight: bold; font-size: 0.875rem; color: #ffffff;">Product Price</label>
+                <input asp-for="Price" style="width: 100%; padding: 10px; border: 1px solid #495057; border-radius: 8px; font-size: 0.875rem; color: #ffffff; background-color: #495057; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); transition: border-color 0.3s ease; outline: none;" type="text" placeholder="Enter Product Price">
+                <span asp-validation-for="Price" style="color: #dc3545; font-size: 0.75rem;"></span>
+            </div>
+        
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="ImageFile" style="font-weight: bold; font-size: 0.875rem; color: #ffffff;">Image File</label>
+                <input asp-for="ImageFile" style="width: 100%; padding: 10px; border: 1px solid #495057; border-radius: 8px; font-size: 0.875rem; color: #ffffff; background-color: #495057; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); transition: border-color 0.3s ease; outline: none;" type="file" placeholder="Enter image url">
+                <span asp-validation-for="ImageFile" style="color: #dc3545; font-size: 0.75rem;"></span>
+            </div>
+        
+            <div class="form-group" style="text-align: center;">
+                <button type="submit" style="padding: 12px 20px; font-size: 0.875rem; border: none; border-radius: 8px; background-color: #007bff; color: white; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); transition: background-color 0.3s ease; outline: none;">
+                    Add Product
+                </button>
+            </div>
+        </form>
+
+    </div>
+</div>
