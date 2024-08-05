@@ -24,4 +24,8 @@
       <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.5" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Shared\ViewComponent\MiniCart\Default.cshtml" />
+    </ItemGroup>
+
 </Project>

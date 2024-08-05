@@ -1,5 +1,40 @@
 @model ValeShop.ViewModels.LoginViewModel
 
+
+@{
+    ViewBag.Title = "Login";
+}
+
+@if (TempData["NotLoggedIn"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["NotLoggedIn"]
+    </div>
+}
+
+@*
+@{
+    ViewBag.Title = "LoginToAddToCart";
+}*@
+
+@if (TempData["LoginToAddToCart"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["LoginToAddToCart"]
+    </div>
+}
+
+
+@*@{
+    ViewBag.Title = "LoginFailed";
+}*@
+@if (TempData["LoginFailed"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["LoginFailed"]
+    </div>
+}
+
 <div class="breadcrumb-area">
                 <div class="container">
                     <div class="breadcrumb-content">

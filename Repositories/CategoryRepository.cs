@@ -36,10 +36,10 @@ namespace ValeShop.Repositories
 
                 var category = _mapper.Map<Category>(categoryViewModel);
 
-                if (categoryViewModel.ParentId.HasValue)
+                if (categoryViewModel.Id.HasValue)
                 {
                     var parentCategory = await _context.Categories
-                        .FirstOrDefaultAsync(c => c.Id == categoryViewModel.ParentId.Value);
+                        .FirstOrDefaultAsync(c => c.Id == categoryViewModel.Id.Value);
 
                     if (parentCategory == null)
                     {

@@ -17,7 +17,7 @@
             @foreach (var category in Model)
             {
                 <li style="margin-bottom: 10px;">
-                    <a asp-controller="Product" asp-action="ProductsByCategory" asp-route-categoryId="@category.ParentId" style="display: block; padding: 15px; border-radius: 8px; background-color: #495057; color: #ffffff; text-decoration: none; transition: background-color 0.3s ease; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+                    <a asp-controller="Product" asp-action="ProductsByCategory" asp-route-categoryId="@category.Id" style="display: block; padding: 15px; border-radius: 8px; background-color: #495057; color: #ffffff; text-decoration: none; transition: background-color 0.3s ease; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
                         @category.CategoryName
                     </a>
                 </li>

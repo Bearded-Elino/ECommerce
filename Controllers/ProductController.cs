@@ -75,6 +75,11 @@ namespace ValeShop.Controllers
 
             try
             {
+                if (HttpContext.Session.GetString("sessionId") == null)
+                {
+                    TempData["NotLoggedIn"] = "login to see all products now!";
+                    return RedirectToAction("Login", "User");
+                }
                 var products = await _productRepository.ViewProducts();
                 return View(products);
             }

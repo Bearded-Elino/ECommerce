@@ -12,7 +12,7 @@ namespace ValeShop.ViewModels
     public class ProductViewModel
     {
         
-        public Guid ProductId { get; set; }
+        public Guid Id { get; set; }
         public Guid CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public Category? Category { get; set; }

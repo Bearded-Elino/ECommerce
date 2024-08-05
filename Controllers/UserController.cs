@@ -35,8 +35,12 @@ namespace ValeShop.Controllers
 
         // GET: /User/Login
         public IActionResult Login()
-            
         {
+            if (HttpContext.Session.GetString("sessionId") != null)
+            {
+                return RedirectToAction("GetAllProducts", "Product");
+            }
+
             return View();
         }
 
@@ -52,7 +56,6 @@ namespace ValeShop.Controllers
             try
             {
                 var user = _mapper.Map<User>(userViewModel);
-                Console.WriteLine("userviewmodel mapped to user successfully");
                 var registeredUser = await _userRepository.CreateUser(user);
                 TempData["UserSuccessMessage"] = "User registration successful";
                 return RedirectToAction("index", "Home");
@@ -71,6 +74,7 @@ namespace ValeShop.Controllers
         {
             if (!ModelState.IsValid)
             {
+                TempData["LoginFailed"] = "incorrect email/password";
                 return View(loginViewModel);
             }
 
@@ -79,29 +83,41 @@ namespace ValeShop.Controllers
                 var user = await _userRepository.Login(loginViewModel);
                 if (user == null)
                 {
-                    TempData["Failed"] = "Login failed: email/password incorrect";
-                    ModelState.AddModelError(string.Empty, "email/password incorrect");
+                    TempData["LoginFailed"] = "incorrect email/password";
                     return View(loginViewModel);
                 }
-
-                var token = GenerateJwtToken(user);
+                HttpContext.Session.SetString("sessionId", Guid.NewGuid().ToString());
+                HttpContext.Session.SetString("userId", user.Id.ToString());
+                /*var token = GenerateJwtToken(user);
                 var cookieOptions = new CookieOptions()
                 {
                     HttpOnly = true,
                     Expires = DateTime.UtcNow.AddMinutes(30)
                 };
-                Response.Cookies.Append("AuthToken", token, cookieOptions);
+                Response.Cookies.Append("AuthToken", token, cookieOptions);*/
 
                 TempData["Success"] = "Login successful";
-                Console.WriteLine("user logged in successfully");
                 return RedirectToAction("index", "Home");
             }
             catch (Exception e)
             {
-                ModelState.AddModelError(string.Empty, "login failed: " + e.Message);
-                Console.WriteLine("login failed");
+                TempData["LoginFailed"] = "incorrect email/password: " + e.Message;
+
                 return View(loginViewModel);
             }
+        }
+
+
+        [HttpGet]
+        public IActionResult Logout()
+        {
+            if (HttpContext.Session.GetString("sessionId") != null)
+            {
+                HttpContext.Session.Clear();
+            }
+
+            return RedirectToAction("Login", "User");
+            
         }
 
 

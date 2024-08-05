@@ -32,16 +32,16 @@ namespace ValeShop.Controllers
                 var categories = await _categoryRepository.ViewCategories(); // Fetch categories
                 if (categories == null || !categories.Any())
                 {
-                    Console.WriteLine("No categories found."); // Logging or other handling if needed
+                    Console.WriteLine("No categories found.");
                 }
 
-                var categoryModels = _mapper.Map<List<CategoryViewModel>>(categories); // Map to ViewModel
-                return View(categoryModels); // Pass the categories to the view
+                var categoryModels = _mapper.Map<List<CategoryViewModel>>(categories); 
+                return View(categoryModels);
             }
             catch (Exception e)
             {
-                Console.WriteLine(e); // Logging the exception
-                throw; // Rethrow the exception for further handling
+                Console.WriteLine(e); 
+                throw;
             }
         }
 

@@ -1,5 +1,4 @@
-﻿@model List<ValeShop.ViewModels.CategoryViewModel>
-
+﻿
 @{
     ViewBag.Title = "Register";
 }
@@ -20,12 +19,6 @@
 {
     <div class="alert alert-success">
         @TempData["Success"]
-    </div>
-}
-@if (TempData["Failed"] != null)
-{
-    <div class="alert alert-danger">
-        @TempData["Failed"]
     </div>
 }
 
@@ -58,13 +51,13 @@
                                    <h2 class="categories-toggle"><span>Categories</span></h2>
                                </div>
                                <div id="cate-toggle" class="category-menu-list">
-                                   @if (Model != null && Model.Any())
+                                   @if (Model != null)
                                    {
                                        <ul>
                                            @foreach (var category in Model)
                                            {
                                                <li>
-                                                   <a href="@Url.Action("ProductsByCategory", "Product", new { categoryId = category.ParentId })">
+                                                   <a href="@Url.Action("ProductsByCategory", "Product", new { categoryId = category.Id })">
                                                        @category.CategoryName
                                                    </a>
                                                </li>
@@ -188,7 +181,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/product/large-size/1.jpg" alt="Li's Product Image">
+                toi                                    <img src="images/product/large-size/1.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>

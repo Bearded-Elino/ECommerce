@@ -9,9 +9,9 @@
         
         <form asp-action="CreateCategory" asp-controller="Category" method="post" enctype="multipart/form-data" style="background-color: #343a40; padding: 20px; border-radius: 12px;">
             <div class="form-group" style="margin-bottom: 15px;">
-                <label for="ParentId" style="font-weight: bold; font-size: 0.875rem; color: #ffffff;">Parent Id (optional)</label>
-                <input asp-for="ParentId" style="width: 100%; padding: 10px; border: 1px solid #495057; border-radius: 8px; font-size: 0.875rem; color: #ffffff; background-color: #495057; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); transition: border-color 0.3s ease; outline: none;" type="text" placeholder="Enter Parent Id">
-                <span asp-validation-for="ParentId" style="color: #dc3545; font-size: 0.75rem;"></span>
+                <label for="Id" style="font-weight: bold; font-size: 0.875rem; color: #ffffff;">Parent Id (optional)</label>
+                <input asp-for="Id" style="width: 100%; padding: 10px; border: 1px solid #495057; border-radius: 8px; font-size: 0.875rem; color: #ffffff; background-color: #495057; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); transition: border-color 0.3s ease; outline: none;" type="text" placeholder="Enter Parent Id">
+                <span asp-validation-for="Id" style="color: #dc3545; font-size: 0.75rem;"></span>
             </div>
 
             <div class="form-group" style="margin-bottom: 15px;">
@@ -28,11 +28,11 @@
             
             @*
                 <div class="form-group" style="margin-bottom: 15px;">
-                <label for="ParentId" style="font-weight: bold; font-size: 0.875rem; color: #ffffff;">Parent Category (optional)</label>
-                <select asp-for="ParentId" asp-items="ViewBag.CategoryList" style="width: 100%; padding: 10px; border: 1px solid #495057; border-radius: 8px; font-size: 0.875rem; color: #ffffff; background-color: #495057; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); transition: border-color 0.3s ease; outline: none;">
+                <label for="Id" style="font-weight: bold; font-size: 0.875rem; color: #ffffff;">Parent Category (optional)</label>
+                <select asp-for="Id" asp-items="ViewBag.CategoryList" style="width: 100%; padding: 10px; border: 1px solid #495057; border-radius: 8px; font-size: 0.875rem; color: #ffffff; background-color: #495057; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); transition: border-color 0.3s ease; outline: none;">
                     <option value="">-- Select Parent Category --</option>
                 </select>
-                <span asp-validation-for="ParentId" style="color: #dc3545; font-size: 0.75rem;"></span>
+                <span asp-validation-for="Id" style="color: #dc3545; font-size: 0.75rem;"></span>
             </div>
             *@
 
