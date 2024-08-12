@@ -562,6 +562,7 @@
                                                             <div class="product-image">
                                                                 <a href="single-product.html">
                                                                     <img src=@Html.DisplayFor(modelItem => product.ImageUrl) alt="Li's Product Image">
+                                                                    
                                                                 </a>
                                                                 <span class="sticker">New</span>
                                                             </div>
@@ -571,7 +572,7 @@
                                                                 <div class="product_desc_info">
                                                                     <div class="product-review">
                                                                         <h5 class="manufacturer">
-                                                                            <a href="product-details.html">Graphic Corner</a>
+                                                                            <a href="product-details.html">@product.Category.CategoryName</a>
                                                                         </h5>
                                                                         <div class="rating-box">
                                                                             <ul class="rating">

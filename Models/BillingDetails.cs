@@ -15,7 +15,7 @@ namespace ValeShop.Models
         public string Phone { get; set; }=String.Empty;
         public string Address { get; set; }=String.Empty;
         public string City { get; set; }=String.Empty;
-        public int StateId { get; set; }
+        public Guid StateId { get; set; }
         public State State { get; set; }
         public bool IsActive { get; set; }
     }

@@ -20,7 +20,7 @@ namespace ValeShop.Controllers
         [HttpGet]
         public IActionResult ShopList()
         {
-            var products = _context.Products.ToList();
+            var products = _context.Products.Include(p => p.Category).ToList();
             return View(products);
         }
 

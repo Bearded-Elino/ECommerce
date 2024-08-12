@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using ValeShop.Automapper;
+using ValeShop.CountryService;
 using ValeShop.Data;
 using ValeShop.interfaces;
 using ValeShop.Repositories;
@@ -82,6 +83,13 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddScoped<ICartRepository, CartRepository>();
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddHttpClient<CountryServiceClass>();
+builder.Services.AddTransient<CountryServiceClass>();
+builder.Services.AddScoped<CountryDataSeeder>();
+builder.Services.AddScoped<ICountryRepository, CountryRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IStateRepository, StateRepository>();
+
 
 
 var app = builder.Build();
@@ -104,8 +112,13 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+using (var scope = app.Services.CreateScope())
+{
+    var seeder = scope.ServiceProvider.GetRequiredService<CountryDataSeeder>();
+    await seeder.SeedAsync();
+}
 
+app.Run();
 
 public class CloudinarySettings
 {

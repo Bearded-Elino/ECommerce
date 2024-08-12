@@ -34,6 +34,7 @@ namespace ValeShop.Controllers
                     Name = c.Product.Name ?? "",
                     ImageUrl = c.Product.ImageUrl ?? "",
                     Quantity = c.Quantity,
+                    ProductId = c.ProductId,
                     Price = c.Product.Price ,
                     Total = c.Product.Price * c.Quantity
                 }).ToList();
@@ -41,38 +42,12 @@ namespace ValeShop.Controllers
             var cartItemViewModel = new CartItemViewModel
             {
                 CartItems = cartItems
+                
             };
 
             return View(cartItemViewModel);
 
         }
-
-
-        
-        /*[HttpGet]
-        public IActionResult MiniCart()
-        {
-            var sessionId = HttpContext.Session.GetString("sessionId");
-            var cartItems = _context.Carts
-                .Include(c => c.Product)
-                .Where(c => c.SessionId == sessionId)
-                .Select(c => new CartViewModel()
-                {
-                    Name = c.Product.Name ?? "",
-                    ImageUrl = c.Product.ImageUrl ?? "",
-                    Quantity = c.Quantity,
-                    Price = c.Product.Price,
-                    Total = c.Product.Price * c.Quantity,
-                }).ToList();
-
-            var cartItemViewModel = new CartItemViewModel
-            {
-                CartItems = cartItems
-            };
-
-            // Pass cartItemViewModel to the PartialView
-            return PartialView("_MiniCart", cartItemViewModel);
-        }*/
 
         [HttpPost]
 
@@ -86,17 +61,17 @@ namespace ValeShop.Controllers
                 return RedirectToAction("Login", "User");
             }
             await _cartRepository.AddToCart(productId, quantity);
-            return RedirectToAction("Cart", "Cart");
+            return RedirectToAction("ShopList", "Shop");
         }
 
         [HttpPost]
-        public async Task<IActionResult> RemoveItemFromCart(Guid productId)
+        public IActionResult RemoveItemFromCart(Guid productId)
         {
             try
             {
                 //var testProduct = Guid.Parse("2112c8c1-57b1-4425-b57b-87d29fd06b96")
                 
-                await _cartRepository.RemoveFromCart(productId);
+                 _cartRepository.RemoveFromCart(productId);
                 return Content("item removed successfully");
             }
             catch (Exception ex)

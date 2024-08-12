@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using ValeShop.Models.Enum;
@@ -15,8 +16,8 @@ namespace ValeShop.Models
         public decimal AmountPaid { get; set; }
         public DateTime PaymentDateTime { get; set; }
         public OrderStatus Status { get; set; }
-        public DateTime CreatedDate { get; set; }=DateTime.Now;
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
 
-
+        public List<OrderDetails> OrderDetails { get; set; } = new List<OrderDetails>();
     }
 }

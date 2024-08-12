@@ -37,7 +37,7 @@ namespace ValeShop.Views.Shared.ViewComponents
                 CartItems = cartItems
             };
 
-            return View(cartItemViewModel); // This will look for a view named Default.cshtml
+            return View(cartItemViewModel);
         }
 
     }

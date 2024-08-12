@@ -11,8 +11,8 @@ using ValeShop.Data;
 namespace ValeShop.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240729093501_migrations")]
-    partial class migrations
+    [Migration("20240806163514_initialcreate")]
+    partial class initialcreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -169,7 +169,7 @@ namespace ValeShop.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<Guid>("BillingDetailsId")
+                    b.Property<Guid>("OrderId")
                         .HasColumnType("char(36)");
 
                     b.Property<decimal>("Price")
@@ -181,13 +181,12 @@ namespace ValeShop.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("ShippingId")
-                        .HasColumnType("char(36)");
-
                     b.Property<decimal>("UnitPrice")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
 
                     b.HasIndex("ProductId");
 
@@ -431,11 +430,19 @@ namespace ValeShop.Migrations
 
             modelBuilder.Entity("ValeShop.Models.OrderDetails", b =>
                 {
+                    b.HasOne("ValeShop.Models.Order", "Order")
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("ValeShop.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Order");
 
                     b.Navigation("Product");
                 });
@@ -506,6 +513,11 @@ namespace ValeShop.Migrations
             modelBuilder.Entity("ValeShop.Models.Category", b =>
                 {
                     b.Navigation("SubCategories");
+                });
+
+            modelBuilder.Entity("ValeShop.Models.Order", b =>
+                {
+                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }

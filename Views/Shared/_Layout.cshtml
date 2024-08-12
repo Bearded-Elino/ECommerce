@@ -147,6 +147,7 @@
                                     
                                     <li class="hm-minicart">
                                         <div class="hm-minicart-trigger">
+                                        
                                             @await Component.InvokeAsync("MiniCart")
                                         </div>
 
@@ -176,9 +177,9 @@
                                         <li class="megamenu-static-holder">
                                             <a asp-controller="Shop" asp-action="ShopList">Shop</a>
                                         </li>
-                                        <li class="megamenu-static-holder">
+                                        @*<li class="megamenu-static-holder">
                                             <a asp-controller="Order" asp-action="Checkout">Checkout</a>
-                                        </li>
+                                        </li>*@
                                         <li class="megamenu-static-holder">
                                             <a asp-controller="Product" asp-action="SingleProduct">SingleProduct</a>
                                         </li>

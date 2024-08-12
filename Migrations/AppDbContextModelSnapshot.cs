@@ -44,10 +44,7 @@ namespace ValeShop.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("StateId")
-                        .HasColumnType("int");
-
-                    b.Property<Guid>("StateId1")
+                    b.Property<Guid>("StateId")
                         .HasColumnType("char(36)");
 
                     b.Property<Guid>("UserId")
@@ -55,7 +52,7 @@ namespace ValeShop.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("StateId1");
+                    b.HasIndex("StateId");
 
                     b.HasIndex("UserId");
 
@@ -166,7 +163,7 @@ namespace ValeShop.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<Guid>("BillingDetailsId")
+                    b.Property<Guid>("OrderId")
                         .HasColumnType("char(36)");
 
                     b.Property<decimal>("Price")
@@ -178,13 +175,12 @@ namespace ValeShop.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("ShippingId")
-                        .HasColumnType("char(36)");
-
                     b.Property<decimal>("UnitPrice")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
 
                     b.HasIndex("ProductId");
 
@@ -372,7 +368,7 @@ namespace ValeShop.Migrations
                 {
                     b.HasOne("ValeShop.Models.State", "State")
                         .WithMany()
-                        .HasForeignKey("StateId1")
+                        .HasForeignKey("StateId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -428,11 +424,19 @@ namespace ValeShop.Migrations
 
             modelBuilder.Entity("ValeShop.Models.OrderDetails", b =>
                 {
+                    b.HasOne("ValeShop.Models.Order", "Order")
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("ValeShop.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Order");
 
                     b.Navigation("Product");
                 });
@@ -503,6 +507,11 @@ namespace ValeShop.Migrations
             modelBuilder.Entity("ValeShop.Models.Category", b =>
                 {
                     b.Navigation("SubCategories");
+                });
+
+            modelBuilder.Entity("ValeShop.Models.Order", b =>
+                {
+                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }

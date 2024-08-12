@@ -131,3 +131,4 @@ C:\Users\Admin\RiderProjects\ECommerceMVC\ValeShop\obj\Debug\net8.0\refint\ValeS
 C:\Users\Admin\RiderProjects\ECommerceMVC\ValeShop\obj\Debug\net8.0\ValeShop.pdb
 C:\Users\Admin\RiderProjects\ECommerceMVC\ValeShop\obj\Debug\net8.0\ValeShop.genruntimeconfig.cache
 C:\Users\Admin\RiderProjects\ECommerceMVC\ValeShop\obj\Debug\net8.0\ref\ValeShop.dll
+C:\Users\Admin\RiderProjects\ECommerceMVC\ValeShop\bin\Debug\net8.0\RestSharp.dll

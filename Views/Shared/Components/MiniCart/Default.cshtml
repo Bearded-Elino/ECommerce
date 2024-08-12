@@ -4,8 +4,8 @@
     <div class="hm-minicart-trigger">
         <span class="item-icon"></span>
         <span class="item-text">
-            @Model.CartItems.Sum(item => item.Total).ToString("C") <!-- Example for total amount -->
-            <span class="cart-item-count">@Model.CartItems.Count</span> <!-- Example for item count -->
+            @Model.CartItems.Sum(item => item.Total).ToString("C")
+            <span class="cart-item-count">@Model.CartItems.Count</span>
         </span>
     </div>
     <div class="minicart">
@@ -27,6 +27,7 @@
             }
         </ul>
         <p class="minicart-total">TOTAL: <span>@Model.CartItems.Sum(item => item.Total).ToString("C")</span></p>
+        
         <div class="minicart-button">
             <a asp-controller="Cart" asp-action="Cart" class="li-button li-button-fullwidth li-button-dark">
                 <span>View Full Cart</span>
