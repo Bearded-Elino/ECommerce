@@ -58,15 +58,15 @@ namespace ValeShop.Controllers
         }
 
 
-        
-        
+
+
         [HttpGet]
         public IActionResult UpdateCategory()
         {
             TempData["UpdateSuccess"] = "Category updated successfully";
             return View();
         }
-        
+
         [HttpPost]
         public async Task<IActionResult> UpdateCategory(UpdateCategoryViewModel updateCategoryViewModel)
         {
@@ -77,7 +77,7 @@ namespace ValeShop.Controllers
 
             try
             {
-                var category =await _categoryRepository.UpdateCategory( updateCategoryViewModel);
+                var category = await _categoryRepository.UpdateCategory(updateCategoryViewModel);
                 if (category == null)
                 {
                     return View();
@@ -128,7 +128,7 @@ namespace ValeShop.Controllers
 
             try
             {
-                var category =await _categoryRepository.DeleteCategory(parentId);
+                var category = await _categoryRepository.DeleteCategory(parentId);
                 if (category == null)
                 {
                     TempData["DeleteFailed"] = "category not found";
@@ -155,7 +155,14 @@ namespace ValeShop.Controllers
 
 
 
+        public IActionResult Index()
+        {
+            // Assuming _categoryService.GetCategories() returns a list of categories
+            ViewBag.Categories = _categoryRepository.ViewCategories();
+            return View();
+        }
+
 
     }
-    
+
 }

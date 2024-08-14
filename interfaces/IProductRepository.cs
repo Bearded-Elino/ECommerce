@@ -14,5 +14,9 @@ namespace ValeShop.interfaces
         public Task<List<Product>>ProductsByCategory(Guid categoryId);
         public Task<Product> EditProduct(Guid productId, ProductViewModel productViewModel);
         public Task<Product> GetProductById(Guid productId);
+
+
+        public Task<List<Product>> SearchProductsAsync(string query, Guid? categoryId);
+
     }
 }

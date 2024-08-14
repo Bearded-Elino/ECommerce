@@ -43,6 +43,7 @@
     <!-- Modernizr js -->
     <script src="~/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
+
 <body>
     <div class="body-wrapper">
         <!-- Begin Header Area -->
@@ -94,8 +95,10 @@
                                         <div class="ht-language-trigger"><span>English</span></div>
                                         <div class="language ht-language">
                                             <ul class="ht-setting-list">
-                                                <li class="active"><a href="#"><img src="images/menu/flag-icon/1.jpg" alt="">English</a></li>
-                                                <li><a href="#"><img src="images/menu/flag-icon/2.jpg" alt="">Français</a></li>
+                                                <li class="active"><a href="#"><img src="images/menu/flag-icon/1.jpg"
+                                                            alt="">English</a></li>
+                                                <li><a href="#"><img src="images/menu/flag-icon/2.jpg"
+                                                            alt="">Français</a></li>
                                             </ul>
                                         </div>
                                     </li>
@@ -124,30 +127,35 @@
                         <!-- Begin Header Middle Right Area -->
                         <div class="col-lg-9 pl-0 ml-sm-15 ml-xs-15">
                             <!-- Begin Header Middle Searchbox Area -->
-                            <form action="#" class="hm-searchbox">
-                                <select class="nice-select select-search-category">
-                                    <!-- search categories -->
+                            <form action="@Url.Action("Results", "SearchResults")" method="get" class="hm-searchbox">
+                                <select name="category" class="nice-select select-search-category">
+                                    <option value="">All Categories</option>
+                                    @if (ViewBag.Categories != null)
+                                    {
+                                        @foreach (var category in ViewBag.Categories)
+                                        {
+                                            <option value="@category.Id">@category.Name</option>
+                                        }
+                                    }
+
                                 </select>
-                                <input type="text" placeholder="Enter your search key ...">
+                                <input type="text" name="query" placeholder="Enter your search key ..."
+                                    value="@ViewBag.SearchQuery">
                                 <button class="li-btn" type="submit"><i class="fa fa-search"></i></button>
                             </form>
+
+
+
                             <!-- Header Middle Searchbox Area End Here -->
                             <!-- Begin Header Middle Right Area -->
                             <div class="header-middle-right">
                                 <ul class="hm-menu">
-                                    <!-- Begin Header Middle Wishlist Area -->
-                                    <li class="hm-wishlist">
-                                        <a href="wishlist.html">
-                                            <span class="cart-item-count wishlist-item-count">0</span>
-                                            <i class="fa fa-heart-o"></i>
-                                        </a>
-                                    </li>
-                                    <!-- Header Middle Wishlist Area End Here -->
-                                    <!-- Begin Header Mini Cart Area -->
                                     
+                                    <!-- Begin Header Mini Cart Area -->
+
                                     <li class="hm-minicart">
                                         <div class="hm-minicart-trigger">
-                                        
+
                                             @await Component.InvokeAsync("MiniCart")
                                         </div>
 
@@ -177,9 +185,10 @@
                                         <li class="megamenu-static-holder">
                                             <a asp-controller="Shop" asp-action="ShopList">Shop</a>
                                         </li>
-                                        @*<li class="megamenu-static-holder">
-                                            <a asp-controller="Order" asp-action="Checkout">Checkout</a>
-                                        </li>*@
+                                        <li class="megamenu-static-holder">
+                                            <a asp-controller="Checkout" asp-action="Checkout">Checkout</a>
+                                        </li>
+
                                         <li class="megamenu-static-holder">
                                             <a asp-controller="Product" asp-action="SingleProduct">SingleProduct</a>
                                         </li>
@@ -232,4 +241,5 @@
     <!-- Main js -->
     <script src="~/js/main.js"></script>
 </body>
+
 </html>

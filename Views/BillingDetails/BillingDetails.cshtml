@@ -58,15 +58,16 @@
                                        <div class="col-md-12">
                                            <div class="country-select clearfix">
                                                <label>Country <span class="required">*</span></label>
-                                               <select class="nice-select wide" name="SelectCountryId">
+                                               <input asp-for="Country" type="text">
+                                               @* <select class="nice-select wide" name="SelectCountryId">
                                                    @foreach (var country in Model.Countries)
                                                    {
                                                        <option value="@country.Value">@country.Text</option>
                                                    }
-                                               </select>
-                                               @*
-                                               <span class="text-danger" asp-validation-for="Countries"></span>
-                                           *@
+                                               </select> *@
+                                               
+                                               <span class="text-danger" asp-validation-for="Country"></span> 
+                                           
                                            </div>
                                        </div>
                                        <div class="col-md-12">
@@ -98,13 +99,14 @@
                                        <div class="col-md-6">
                                            <div class="checkout-form-list">
                                                <label>State / County <span class="required">*</span></label>
-                                               <select asp-for="StateId" class="nice-select wide">
+                                               <input asp-for="State" type="text">
+                                               @* <select asp-for="StateId" class="nice-select wide">
                                                    @foreach (var state in Model.States)
                                                    {
                                                        <option value="@state.Value">@state.Text</option>
                                                    }
-                                               </select>
-                                               <span class="text-danger" asp-validation-for="StateId"></span>
+                                               </select> *@
+                                               <span class="text-danger" asp-validation-for="State"></span>
                                            </div>
                                        </div>
 

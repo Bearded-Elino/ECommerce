@@ -33,48 +33,50 @@ namespace ValeShop.Controllers
                 return RedirectToAction("Login", "User");
             }
 
-            var countries = await _countryRepository.GetAllCountriesAsync();
-            var sortedCountries = countries.OrderBy(c => c.Name).ToList();
+            // var countries = await _countryRepository.GetAllCountriesAsync();
+            // var sortedCountries = countries.OrderBy(c => c.Name).ToList();
 
-            var model = new BillingDetailsViewModel
-            {
-                Countries = sortedCountries.Select(c => new SelectListItem
-                {
-                    Value = c.Id.ToString(),
-                    Text = c.Name
-                }).ToList(),
-                SelectedCountryId = selectedCountryId ?? Guid.Empty
-            };
+            // var model = new BillingDetailsViewModel
+            // {
+            //     Countries = sortedCountries.Select(c => new SelectListItem
+            //     {
+            //         Value = c.Id.ToString(),
+            //         Text = c.Name
+            //     }).ToList(),
+            //     SelectedCountryId = selectedCountryId ?? Guid.Empty
+            // };
 
-            if (selectedCountryId.HasValue)
-            {
-                var states = await _stateRepository.GetStatesByCountryAsync(selectedCountryId.Value);
-                model.States = states.Select(s => new SelectListItem
-                {
-                    Value = s.Id.ToString(),
-                    Text = s.Name
-                }).ToList();
-            }
+            // if (selectedCountryId.HasValue)
+            // {
+            //     var states = await _stateRepository.GetStatesByCountryAsync(selectedCountryId.Value);
+            //     model.States = states.Select(s => new SelectListItem
+            //     {
+            //         Value = s.Id.ToString(),
+            //         Text = s.Name
+            //     }).ToList();
+            // }
+            var model = new BillingDetailsViewModel();
+
 
             return View(model);
         }
 
-            
-        
+
+
         [HttpPost]
         public async Task<IActionResult> SaveBillingDetails(BillingDetailsViewModel model)
         {
             if (!ModelState.IsValid)
             {
-                
-                var countries = await _countryRepository.GetAllCountriesAsync();
-                model.Countries = countries.Select(c => new SelectListItem
-                {
-                    Value = c.Id.ToString(),
-                    Text = c.Name
-                }).ToList();
-                Console.WriteLine("The code got to this point");
-        
+
+                // var countries = await _countryRepository.GetAllCountriesAsync();
+                // model.Countries = countries.Select(c => new SelectListItem
+                // {
+                //     Value = c.Id.ToString(),
+                //     Text = c.Name
+                // }).ToList();
+                // Console.WriteLine("The code got to this point");
+
                 return View("BillingDetails");
             }
 
@@ -86,18 +88,20 @@ namespace ValeShop.Controllers
                 Phone = model.Phone,
                 Address = model.Address,
                 City = model.City,
-                StateId = model.StateId,
+                Country = model.Country,
+                State = model.State,
+                // StateId = model.StateId,
                 IsActive = true
             };
 
             await _context.BillingDetails.AddAsync(billingDetails);
             await _context.SaveChangesAsync();
             Console.WriteLine($"{billingDetails}");
-            
-            TempData["BillingDetailsSuccess"]= "Order placed successfully";
-            return RedirectToAction("Order","Order");
+
+            TempData["BillingDetailsSuccess"] = "Order placed successfully";
+            return RedirectToAction("Pay", "Payment");
         }
 
 
-        }
     }
+}

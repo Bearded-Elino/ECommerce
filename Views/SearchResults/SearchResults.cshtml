@@ -1,0 +1,21 @@
+@model IList<Product>
+
+<h2>Search Results</h2>
+
+@if (!Model.Any())
+{
+    <p>No products found.</p>
+}
+else
+{
+    <ul>
+        @foreach (var product in Model)
+        {
+            <li>
+                <a href="@Url.Action("ProductDetails", "Product", new { id = product.Id })">
+                    @product.Name - @product.Price
+                </a>
+            </li>
+        }
+    </ul>
+}

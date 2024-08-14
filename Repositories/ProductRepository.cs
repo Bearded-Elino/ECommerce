@@ -27,7 +27,7 @@ namespace ValeShop.Repositories
             _imageRepository = imageRepository;
             _logger = logger;
         }
-        
+
         public async Task<Product> AddProduct(ProductViewModel productViewModel)
         {
             try
@@ -112,7 +112,7 @@ namespace ValeShop.Repositories
                 throw;
             }
         }
-        
+
         public async Task<Product> GetProductById(Guid productId)
         {
             try
@@ -121,7 +121,7 @@ namespace ValeShop.Repositories
                 {
                     return null;
                 }
-        
+
                 var product = await _context.Products.FindAsync(productId);
                 if (product == null)
                 {
@@ -135,6 +135,39 @@ namespace ValeShop.Repositories
                 throw;
             }
         }
+
+
+
+
+
+
+
+
+        public async Task<List<Product>> SearchProductsAsync(string query, Guid? categoryId)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(query))
+                {
+                    return await _context.Products
+                        .Where(p => !categoryId.HasValue || p.CategoryId == categoryId.Value)
+                        .ToListAsync();
+                }
+
+                return await _context.Products
+                    .Where(p => p.Name.Contains(query, StringComparison.OrdinalIgnoreCase) &&
+                                (!categoryId.HasValue || p.CategoryId == categoryId.Value))
+                    .ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Failed to search products");
+                throw new Exception("Failed to search products", ex);
+            }
+        }
+
+
+
 
     }
 }

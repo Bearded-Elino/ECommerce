@@ -9,111 +9,119 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ValeShop
 build_property.RootNamespace = ValeShop
-build_property.ProjectDir = C:\Users\Admin\RiderProjects\ECommerceMVC\ValeShop\
+build_property.ProjectDir = C:\Users\Admin\ECommerce\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\RiderProjects\ECommerceMVC\ValeShop
+build_property.MSBuildProjectDirectory = C:\Users\Admin\ECommerce
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/BillingDetails/BillingDetails.cshtml]
+[C:/Users/Admin/ECommerce/Views/BillingDetails/BillingDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbGluZ0RldGFpbHNcQmlsbGluZ0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Cart/Cart.cshtml]
+[C:/Users/Admin/ECommerce/Views/Cart/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Category/CreateCategory.cshtml]
+[C:/Users/Admin/ECommerce/Views/Category/CreateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Category/DeleteCategory.cshtml]
+[C:/Users/Admin/ECommerce/Views/Category/DeleteCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Category/UpdateCategory.cshtml]
+[C:/Users/Admin/ECommerce/Views/Category/UpdateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Category/ViewAllCategories.cshtml]
+[C:/Users/Admin/ECommerce/Views/Category/ViewAllCategories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVmlld0FsbENhdGVnb3JpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Checkout/Checkout.cshtml]
+[C:/Users/Admin/ECommerce/Views/Checkout/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Home/Index.cshtml]
+[C:/Users/Admin/ECommerce/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Home/Privacy.cshtml]
+[C:/Users/Admin/ECommerce/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Order/Order.cshtml]
+[C:/Users/Admin/ECommerce/Views/Order/Order.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Product/CreateProduct.cshtml]
+[C:/Users/Admin/ECommerce/Views/Order/OrderSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/ECommerce/Views/Product/CreateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Product/EditProduct.cshtml]
+[C:/Users/Admin/ECommerce/Views/Product/EditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Product/GetAllProducts.cshtml]
+[C:/Users/Admin/ECommerce/Views/Product/GetAllProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRBbGxQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Product/ProductDetails.cshtml]
+[C:/Users/Admin/ECommerce/Views/Product/ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Product/ProductsByCategory.cshtml]
+[C:/Users/Admin/ECommerce/Views/Product/ProductsByCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0c0J5Q2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Product/SingleProduct.cshtml]
+[C:/Users/Admin/ECommerce/Views/Product/SingleProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaW5nbGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Shared/Components/MiniCart/Default.cshtml]
+[C:/Users/Admin/ECommerce/Views/SearchResults/SearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoUmVzdWx0c1xTZWFyY2hSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/ECommerce/Views/Shared/Components/MiniCart/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWluaUNhcnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Shared/Error.cshtml]
+[C:/Users/Admin/ECommerce/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/ECommerce/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Shop/ShopList.cshtml]
+[C:/Users/Admin/ECommerce/Views/Shop/ShopList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxTaG9wTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/User/Login.cshtml]
+[C:/Users/Admin/ECommerce/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/User/Register.cshtml]
+[C:/Users/Admin/ECommerce/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/_ViewImports.cshtml]
+[C:/Users/Admin/ECommerce/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/_ViewStart.cshtml]
+[C:/Users/Admin/ECommerce/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/RiderProjects/ECommerceMVC/ValeShop/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/ECommerce/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6xc60pajm4

@@ -17,6 +17,7 @@ using ValeShop.Data;
 using ValeShop.interfaces;
 using ValeShop.Repositories;
 using ValeShop.ViewModels;
+using ValeShop.PaymentServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -89,6 +90,7 @@ builder.Services.AddScoped<CountryDataSeeder>();
 builder.Services.AddScoped<ICountryRepository, CountryRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IStateRepository, StateRepository>();
+builder.Services.AddSingleton<PaystackService>();
 
 
 
