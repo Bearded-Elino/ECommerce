@@ -44,36 +44,40 @@
                     <div class="row">
                         <!-- Begin Category Menu Area -->
                         <div class="col-lg-3">
-                            <!--Category Menu Start-->
-                            
-                           <div class="category-menu">
-                               <div class="category-heading">
-                                   <h2 class="categories-toggle"><span>Categories</span></h2>
-                               </div>
-                               <div id="cate-toggle" class="category-menu-list">
-                                   @if (Model != null)
-                                   {
-                                       <ul>
-                                           @foreach (var category in Model)
-                                           {
-                                               <li>
-                                                   <a href="@Url.Action("ProductsByCategory", "Product", new { categoryId = category.Id })">
-                                                       @category.CategoryName
-                                                   </a>
-                                               </li>
-                                           }
-                                       </ul>
-                                   }
-                                   else
-                                   {
-                                       <p>No categories available.</p>
-                                   }
-                               </div>
-                           </div>
+    <!--Category Menu Start-->
+    <div class="category-menu">
+        <!-- Make the entire heading clickable -->
+        <a data-toggle="collapse" href="#categoryMenu" role="button" aria-expanded="false" aria-controls="categoryMenu">
+            <div class="category-heading" style="text-align: center; padding: 10px; color: white;">
+                <h2 class="categories-toggle" style="margin: 0;">
+                    <span>Categories</span>
+                </h2>
+            </div>
+        </a>
+        <!-- Collapsible content -->
+        <div id="categoryMenu" class="collapse" style="background-color: #f8f9fa; padding: 10px; text-align: center;">
+            @if (Model != null)
+            {
+                <ul class="category-menu-list" style="list-style-type: none; padding-left: 0; display: inline-block;">
+                    @foreach (var category in Model)
+                    {
+                        <li style="padding: 5px 0;">
+                            <a href="@Url.Action("ProductsByCategory", "Product", new { categoryId = category.Id })"
+                               style="color: #343a40; text-decoration: none; font-weight: bold;">
+                                @category.CategoryName
+                            </a>
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p style="text-align: center; color: #343a40;">No categories available.</p>
+            }
+        </div>
+    </div>
+</div>
 
-                           </div>
-
-                        </div>
 
                             
                             <!--Category Menu End-->
@@ -84,6 +88,7 @@
                             <div class="slider-area pt-sm-30 pt-xs-30">
                                 <div class="slider-active owl-carousel">
                                     <!-- Begin Single Slide Area -->
+                                    
                                     <div class="single-slide align-center-left animation-style-02 bg-4">
                                         <div class="slider-progress"></div>
                                         <div class="slider-content">
@@ -91,7 +96,7 @@
                                             <h2>Chamcham Galaxy S9 | S9+</h2>
                                             <h3>Starting at <span>$589.00</span></h3>
                                             <div class="default-btn slide-btn">
-                                                <a class="links" href="shop-left-sidebar.html">Shopping Now</a>
+                                                <a class="links" href="@Url.Action("ShopList", "Shop")">Shopping Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -104,7 +109,7 @@
                                             <h2>Work Desk Surface Studio 2018</h2>
                                             <h3>Starting at <span>$1599.00</span></h3>
                                             <div class="default-btn slide-btn">
-                                                <a class="links" href="shop-left-sidebar.html">Shopping Now</a>
+                                                <a class="links" href="@Url.Action("ShopList", "Shop")">Shopping Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -117,7 +122,7 @@
                                             <h2>Phantom 4 Pro+ Obsidian</h2>
                                             <h3>Starting at <span>$809.00</span></h3>
                                             <div class="default-btn slide-btn">
-                                                <a class="links" href="shop-left-sidebar.html">Shopping Now</a>
+                                                <a class="links" href="@Url.Action("ShopList", "Shop")">Shopping Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1371,7 +1376,7 @@
                                     <span> $1209.00</span>
                                 </p>
                                 <div class="default-btn">
-                                    <a href="shop-left-sidebar.html" class="links">Shopping Now</a>
+                                    href="@Url.Action("ShopList", "Shop")">Shopping Now</a>
                                 </div>
                             </div>
                             <!-- Li's Static Home Content Area End Here -->

@@ -165,9 +165,5 @@ namespace ValeShop.Repositories
                 throw new Exception("Failed to search products", ex);
             }
         }
-
-
-
-
     }
 }

@@ -4,6 +4,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using ECommerce.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -19,12 +20,14 @@ namespace ValeShop.Controllers
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
         private readonly IConfiguration _configuration;
+        private readonly IEmailService _emailService;
 
-        public UserController(IUserRepository userRepository, IMapper mapper, IConfiguration configuration)
+        public UserController(IUserRepository userRepository, IMapper mapper, IConfiguration configuration, IEmailService emailService)
         {
             _userRepository = userRepository;
             _mapper = mapper;
             _configuration = configuration;
+            _emailService = emailService;
         }
 
         // GET: /User/Register

@@ -19,35 +19,6 @@ namespace ECommerce.Controllers
             _paystackService = paystackService;
         }
 
-       [HttpGet("Pay/{amount}/{email}")]
-        public async Task<IActionResult> Pay(decimal amount, string email)
-        {
-            if (string.IsNullOrEmpty(email))
-            {
-                return Json(new { status = false, message = "Invalid Email Address Passed" });
-            }
-
-            try
-            {
-                var response = await _paystackService.InitializePayment(amount, email);
-                var responseObject = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(response);
-
-                if (responseObject.status == true)
-                {
-                    var authorizationUrl = responseObject.data.authorization_url;
-                    return Redirect(authorizationUrl);
-                }
-                else
-                {
-                    return Json(new { status = false, message = responseObject.message });
-                }
-            }
-            catch (Exception ex)
-            {
-                return Json(new { status = false, message = ex.Message });
-            }
-        }
-
 
         [HttpGet("Callback")]
 

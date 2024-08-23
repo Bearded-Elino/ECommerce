@@ -1,6 +1,8 @@
 using System;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
+using ECommerce.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -17,12 +19,16 @@ namespace ValeShop.Controllers
         private readonly AppDbContext _context;
         private readonly ICountryRepository _countryRepository;
         private readonly IStateRepository _stateRepository;
+        private readonly IEmailService _emailService;
 
-        public BillingDetailsController(AppDbContext context, ICountryRepository countryRepository, IStateRepository stateRepository)
+
+        public BillingDetailsController(AppDbContext context, ICountryRepository countryRepository, IStateRepository stateRepository, IEmailService emailService)
         {
             _context = context;
             _countryRepository = countryRepository;
             _stateRepository = stateRepository;
+            _emailService = emailService;
+
         }
 
         public async Task<IActionResult> BillingDetails(Guid? selectedCountryId)
@@ -32,29 +38,6 @@ namespace ValeShop.Controllers
             {
                 return RedirectToAction("Login", "User");
             }
-
-            // var countries = await _countryRepository.GetAllCountriesAsync();
-            // var sortedCountries = countries.OrderBy(c => c.Name).ToList();
-
-            // var model = new BillingDetailsViewModel
-            // {
-            //     Countries = sortedCountries.Select(c => new SelectListItem
-            //     {
-            //         Value = c.Id.ToString(),
-            //         Text = c.Name
-            //     }).ToList(),
-            //     SelectedCountryId = selectedCountryId ?? Guid.Empty
-            // };
-
-            // if (selectedCountryId.HasValue)
-            // {
-            //     var states = await _stateRepository.GetStatesByCountryAsync(selectedCountryId.Value);
-            //     model.States = states.Select(s => new SelectListItem
-            //     {
-            //         Value = s.Id.ToString(),
-            //         Text = s.Name
-            //     }).ToList();
-            // }
             var model = new BillingDetailsViewModel();
 
 
@@ -68,14 +51,6 @@ namespace ValeShop.Controllers
         {
             if (!ModelState.IsValid)
             {
-
-                // var countries = await _countryRepository.GetAllCountriesAsync();
-                // model.Countries = countries.Select(c => new SelectListItem
-                // {
-                //     Value = c.Id.ToString(),
-                //     Text = c.Name
-                // }).ToList();
-                // Console.WriteLine("The code got to this point");
 
                 return View("BillingDetails");
             }
@@ -96,12 +71,113 @@ namespace ValeShop.Controllers
 
             await _context.BillingDetails.AddAsync(billingDetails);
             await _context.SaveChangesAsync();
-            Console.WriteLine($"{billingDetails}");
+            var sessionId = HttpContext.Session.GetString("sessionId");
+            var cartItems = _context.Carts
+                .Include(c => c.Product)
+                .Where(c => c.SessionId == sessionId)
+                .Select(c => new CartViewModel()
+                {
+                    Name = c.Product.Name ?? "",
+                    ImageUrl = c.Product.ImageUrl ?? "",
+                    Quantity = c.Quantity,
+                    ProductId = c.ProductId,
+                    Price = c.Product.Price,
+                    Total = c.Product.Price * c.Quantity
+                }).ToList();
+
+            var cartItemViewModel = new CartItemViewModel
+            {
+                CartItems = cartItems
+
+            };
+
+            var userId = HttpContext.Session.GetString("userId");
+            var sessionIda = HttpContext.Session.GetString("sessionId");
+            var orders = new ValeShop.Models.Order
+            {
+                UserId = Guid.Parse(userId),
+                AmountPaid = cartItemViewModel.Total,
+                PaymentDateTime = DateTime.Now,
+                Status = 0,
+                CreatedDate = DateTime.Now
+            };
+            await _context.Orders.AddAsync(orders);
+
+            var cartItem = _context.Carts.Where(c => c.SessionId == sessionIda).Include(x => x.Product).ToList();
+            foreach(var item in cartItem){
+                var details = new OrderDetails{
+                    Quantity = item.Quantity,
+                    Price = item.Product.Price * item.Quantity,
+                    UnitPrice = item.Product.Price,
+                    ProductId = item.ProductId,
+                    OrderId = orders.Id
+                };
+                _context.OrderDetails.Add(details);
+            }
+            await _context.SaveChangesAsync();
+
+            //after saving orders, we then retrieve the customer's order details
+
+            var orderDetails = await _context.OrderDetails
+            .Where(od => od.OrderId == orders.Id)
+            .Include(od => od.Product)
+            .ToListAsync();
+
+
+            string orderDetailsHtml = FormatOrderDetailsForEmail(orders, orderDetails);
+
+
 
             TempData["BillingDetailsSuccess"] = "Order placed successfully";
-            return RedirectToAction("Pay", "Payment");
+            var user = _context.Users.FirstOrDefault(x => x.Id == Guid.Parse(userId));
+
+
+            string subject = "Order Confirmation - Order #" + orders.Id;
+            string body = $"Dear {user?.FirstName},<br><br>You have successfully placed an order. Below are your order details:<br><br>{orderDetailsHtml}<br><br>Sincerely,<br>Your Company";
+            await _emailService.SendEmailAsync(user.Email, subject, body);
+
+            return RedirectToAction("OrderSuccess", "Order");
+
+
+
         }
 
+        private string FormatOrderDetailsForEmail(Order order, List<OrderDetails> orderDetails)
+        { 
+
+            var sb = new StringBuilder();
+
+            sb.Append("<h2>Order Details</h2>");
+            sb.Append($"<p>Order Number: {order.Id}</p>");
+            sb.Append($"<p>Order Date: {order.PaymentDateTime.ToString("MM/dd/yyyy")}</p>");
+            sb.Append("<table border='1' cellpadding='5' cellspacing='0'>");
+            sb.Append("<tr><th>Product Image</th><th>Product Name</th><th>Quantity</th><th>Unit Price</th><th>Total Price</th></tr>");
+            decimal totals = 0;
+            foreach (var item in orderDetails)
+            {
+                Console.WriteLine($"Product: {item.Product?.Name}, ImageUrl: {item.Product?.ImageUrl}, Price: {item.Price}, Quantity: {item.Quantity}");
+
+                sb.Append("<tr>");
+
+                sb.Append($"<td><img src='{item.Product?.ImageUrl}' alt='{item.Product?.Name}' style='width:100px; height:auto;' /></td>");
+
+                sb.Append($"<td>{item.Product?.Name}</td>");
+
+                sb.Append($"<td>{item.Quantity}</td>");
+
+                sb.Append($"<td>{item.UnitPrice:C}</td>");
+
+                sb.Append($"<td>{item.Price:C}</td>");
+
+                sb.Append("</tr>");
+                totals += item.Price;
+            }
+
+            sb.Append("</table>");
+            sb.Append($"<p>Total Amount Paid: {totals:C}</p>");
+
+            return sb.ToString();
+        }
 
     }
 }

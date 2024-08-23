@@ -266,3 +266,5 @@ C:\Users\Admin\ECommerce\obj\Debug\net8.0\refint\ValeShop.dll
 C:\Users\Admin\ECommerce\obj\Debug\net8.0\ValeShop.pdb
 C:\Users\Admin\ECommerce\obj\Debug\net8.0\ValeShop.genruntimeconfig.cache
 C:\Users\Admin\ECommerce\obj\Debug\net8.0\ref\ValeShop.dll
+C:\Users\Admin\ECommerce\bin\Debug\net8.0\MailKit.dll
+C:\Users\Admin\ECommerce\bin\Debug\net8.0\MimeKit.dll

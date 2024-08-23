@@ -29,10 +29,10 @@
         <p class="minicart-total">TOTAL: <span>@Model.CartItems.Sum(item => item.Total).ToString("C")</span></p>
         
         <div class="minicart-button">
-            <a asp-controller="Cart" asp-action="Cart" class="li-button li-button-fullwidth li-button-dark">
+            <a href="@Url.Action("Cart", "Cart")" class="li-button li-button-fullwidth li-button-dark">
                 <span>View Full Cart</span>
             </a>
-            <a asp-controller="Checkout" asp-action="Checkout" class="li-button li-button-fullwidth">
+            <a href="@Url.Action("Cart", "Cart")" class="li-button li-button-fullwidth">
                 <span>Checkout</span></a>
         </div>
     </div>

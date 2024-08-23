@@ -30,9 +30,16 @@ namespace ValeShop.Controllers
         }
         
         [HttpGet]
-        public IActionResult SingleProduct()
+        public IActionResult SingleProduct(Guid Id)
         {
-            return View();
+            var singleProduct = _context.Products.FirstOrDefault(x => x.Id == Id);
+            if(singleProduct == null)
+            {
+                return RedirectToAction("Shop","Shop");
+            }
+            var image = singleProduct.ImageUrl;
+            ViewBag.ImageUrl = image;
+            return View(singleProduct);
         }
         
         [HttpGet]

@@ -18,6 +18,7 @@ using ValeShop.interfaces;
 using ValeShop.Repositories;
 using ValeShop.ViewModels;
 using ValeShop.PaymentServices;
+using ECommerce.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -91,6 +92,10 @@ builder.Services.AddScoped<ICountryRepository, CountryRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IStateRepository, StateRepository>();
 builder.Services.AddSingleton<PaystackService>();
+
+builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("Smtp"));
+
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 
 

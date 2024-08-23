@@ -27,7 +27,7 @@ namespace ECommerce.Controllers
             ViewBag.SearchQuery = query;
 
             var results = await _productRepository.SearchProductsAsync(query, category);
-            return View("SearchResults", results); // Make sure the view name matches
+            return View("SearchResults", results);
         }
     }
 }
