@@ -52,11 +52,11 @@ namespace ValeShop.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public  Task RemoveFromCart(Guid productId)
+        public Task RemoveFromCart(Guid productId)
         {
             var sessionId = _session.GetString("sessionId");
             var userId = _session.GetString("userId");
-            
+
             var existingCartItem = _context.Carts
                 .FirstOrDefault(c => c.ProductId == productId && c.SessionId == sessionId && c.UserId == Guid.Parse(userId));
 
@@ -64,7 +64,7 @@ namespace ValeShop.Repositories
             if (existingCartItem != null)
             {
                 _context.Carts.Remove(existingCartItem);
-                 _context.SaveChanges();
+                _context.SaveChanges();
                 Console.WriteLine($"item with ID {productId} has been deleted from the database");
                 Console.WriteLine($"existing cartitems are {existingCartItem.ProductId}");
 
@@ -83,10 +83,73 @@ namespace ValeShop.Repositories
             throw new NotImplementedException();
         }
 
+        public async Task<Cart> UpdateCart(Guid productId, int quantity)
+        {
+            try
+            {
+                // Retrieve the existing cart item
+                var cartItem = await _context.Carts.FirstOrDefaultAsync(c => c.ProductId == productId);
+                if (cartItem == null)
+                {
+                    // If the cart item doesn't exist, create a new one
+                    cartItem = new Cart
+                    {
+                        ProductId = productId,
+                        Quantity = quantity
+                    };
+
+                    // Add the new cart item to the database context
+                    await _context.Carts.AddAsync(cartItem);
+                }
+                else
+                {
+                    // If the cart item exists, update its quantity
+                    cartItem.Quantity = quantity;
+
+                    // Update the cart item in the database context
+                    _context.Carts.Update(cartItem);
+                }
+
+                // Save changes to the database
+                await _context.SaveChangesAsync();
+
+                // Return the updated or newly created cart item
+                return cartItem;
+            }
+            catch (Exception ex)
+            {
+                // Log the exception if necessary
+                // throw new CustomException("An error occurred while updating the cart", ex);
+
+                throw; // Rethrow the original exception
+            }
+        }
+
+
         public async Task ClearCart()
         {
             throw new NotImplementedException();
 
+        }
+
+        public async Task UpdateCartItemQuantity(Cart cartItem, int quantity)
+        {
+            cartItem.Quantity = quantity;
+            _context.Carts.Update(cartItem);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task SaveChanges()
+        {
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<Cart> GetCartItem(Guid productId)
+        {
+            var sessionId = _session.GetString("sessionId");
+            return await _context.Carts
+                .Include(c => c.Product)
+                .FirstOrDefaultAsync(c => c.ProductId == productId && c.SessionId == sessionId);
         }
     }
 }

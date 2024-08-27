@@ -28,26 +28,6 @@ namespace ValeShop.Controllers
 
         public async Task<IActionResult> Checkout(Guid orderId)
         {
-            /*var countries = await _countryRepository.GetAllCountriesAsync();
-    
-            var sortedCountries = countries.OrderBy(c => c.Name).ToList();
-    
-            var order = await _orderRepository.GetOrderByIdAsync(orderId);
-
-            var model = new CheckoutViewModel
-            {
-                Countries = sortedCountries.Select(c => new SelectListItem
-                {
-                    Value = c.Id.ToString(),
-                    Text = c.Name
-                }).ToList(),
-                
-                
-                
-                
-            };
-
-            return View(model);*/
             
             var sessionId = HttpContext.Session.GetString("sessionId");
             var cartItems = _context.Carts

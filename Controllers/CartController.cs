@@ -35,14 +35,14 @@ namespace ValeShop.Controllers
                     ImageUrl = c.Product.ImageUrl ?? "",
                     Quantity = c.Quantity,
                     ProductId = c.ProductId,
-                    Price = c.Product.Price ,
+                    Price = c.Product.Price,
                     Total = c.Product.Price * c.Quantity
                 }).ToList();
-            
+
             var cartItemViewModel = new CartItemViewModel
             {
                 CartItems = cartItems
-                
+
             };
 
             return View(cartItemViewModel);
@@ -56,7 +56,7 @@ namespace ValeShop.Controllers
             if (HttpContext.Session.GetString("sessionId") == null)
             {
                 TempData["LoginToAddToCart"] = "log into your account to add to cart and process your orders!";
-                
+
 
                 return RedirectToAction("Login", "User");
             }
@@ -70,8 +70,8 @@ namespace ValeShop.Controllers
             try
             {
                 //var testProduct = Guid.Parse("2112c8c1-57b1-4425-b57b-87d29fd06b96")
-                
-                 _cartRepository.RemoveFromCart(productId);
+
+                _cartRepository.RemoveFromCart(productId);
                 return Content("item removed successfully");
             }
             catch (Exception ex)
@@ -80,6 +80,28 @@ namespace ValeShop.Controllers
                 throw new Exception(ex.Message);
             }
         }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateCart(Guid productId, int quantity)
+        {
+            try
+            {
+                var cartItem = await _cartRepository.GetCartItem(productId);
+                if (cartItem != null)
+                {
+                    await _cartRepository.UpdateCartItemQuantity(cartItem, quantity);
+                    await _cartRepository.SaveChanges(); // Save changes to the database
+                }
+                return Ok(); // Return a successful response
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions
+                return StatusCode(500, "Internal server error: " + ex.Message);
+            }
+        }
+
+
 
 
     }

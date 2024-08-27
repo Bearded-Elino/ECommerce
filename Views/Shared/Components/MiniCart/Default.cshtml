@@ -27,13 +27,18 @@
             }
         </ul>
         <p class="minicart-total">TOTAL: <span>@Model.CartItems.Sum(item => item.Total).ToString("C")</span></p>
-        
-        <div class="minicart-button">
-            <a href="@Url.Action("Cart", "Cart")" class="li-button li-button-fullwidth li-button-dark">
-                <span>View Full Cart</span>
-            </a>
-            <a href="@Url.Action("Cart", "Cart")" class="li-button li-button-fullwidth">
-                <span>Checkout</span></a>
-        </div>
+
+        @if (Model.CartItems.Any())
+        {
+            <div class="minicart-button">
+                <a href="@Url.Action("Cart", "Cart")" class="li-button li-button-fullwidth li-button-dark">
+                    <span>View Full Cart</span>
+                </a>
+                <a href="@Url.Action("Checkout", "Checkout")" class="li-button li-button-fullwidth">
+                    <span>Checkout</span>
+                </a>
+            </div>
+        }
+    </div>
     </div>
 </div>

@@ -1,0 +1,22 @@
+@model ECommerce.ViewModels.PaymentViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Page</title>
+</head>
+<body>
+    <h1>Payment Information</h1>
+
+    @using (Html.BeginForm("ProcessPayment", "Payment", FormMethod.Post))
+    {
+        <div>
+            <label for="amount">Amount to Pay:</label>
+            <input type="number" id="amount" name="Amount" step="0.01" min="0" required />
+        </div>
+        <div>
+            <button type="submit">Pay Now</button>
+        </div>
+    }
+</body>
+</html>

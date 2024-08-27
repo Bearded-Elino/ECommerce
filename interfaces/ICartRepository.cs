@@ -11,5 +11,16 @@ namespace ValeShop.interfaces
         public Task RemoveFromCart(Guid productId);
         public Task<List<Cart>> GetCartItems();
         public Task ClearCart();
+
+
+
+            Task<Cart> GetCartItem(Guid productId);
+
+
+            Task UpdateCartItemQuantity(Cart cartItem, int quantity);
+
+
+        public Task<Cart> UpdateCart(Guid productId, int quantity);
+        Task SaveChanges();
     }
 }

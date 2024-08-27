@@ -6640,6 +6640,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
       "Microsoft.IdentityModel.Tokens >= 8.0.1",
       "MySql.EntityFrameworkCore >= 8.0.5",
+      "Newtonsoft.Json >= 13.0.3",
       "RestSharp >= 111.4.1",
       "automapper >= 13.0.1"
     ]
@@ -6728,6 +6729,10 @@
           "MySql.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.5, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "RestSharp": {
             "target": "Package",
